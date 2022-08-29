@@ -1,0 +1,24 @@
+{
+    "name": "aishmurodov/mrocket-simple-integration",
+    "description": "Simple integration with site",
+    "require": {
+        "andrey-tech/amocrm-api-php": "2.18",
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Aishmurodov\\MrocketSimpleIntegration\\": "src/MrocketSimpleIntegration/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Абдурахмон",
+            "email": "xolbek0000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
